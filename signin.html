@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>YOU DO</title>
+	<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-auth.js"></script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<link rel="stylesheet" href="9685.css"></link>
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'></link>
+    <h1 align="center" class = "headq" >WELCOME TO SIGNUP PAGE...</h1>
+    <div class ="from_detail" align="center">
+        <input id="email" type="email" placeholder="email id"><br>
+        <input id="pass" type="password" placeholder="Password"><br>
+        <input id="cpass" type="password" placeholder="Confirm-Password"><br>
+        <button onclick="sSignUp()">Sign Up</button>
+    </div> 
+      <div id="show_signup" align="center" style="margin-top: 10%;">
+      	<button onclick="byPhone()">Using Mobile</button>
+      	<button onclick="bygoogle()">Using Google</button>
+      </div>  
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyBysuzLEY6uRa_YnH9bKG8n5kQ71Z3Yu70",
+    authDomain: "todo-ee482.firebaseapp.com",
+    databaseURL: "https://todo-ee482.firebaseio.com",
+    projectId: "todo-ee482",
+    storageBucket: "todo-ee482.appspot.com",
+    messagingSenderId: "1070759326543",
+    appId: "1:1070759326543:web:8163c82b931326a830cb3a",
+    measurementId: "G-C6RC2C598L"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script src="sign.js"></script>
+</body>
+</html>

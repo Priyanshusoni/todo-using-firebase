@@ -1,0 +1,109 @@
+body
+ { background-color:#1f2e2e; }
+.head
+ { color: #00e6e6;
+   font-family:'Audiowide';
+   font-size: 22pt;
+   text-align: center; }
+.content
+ { color:#ff1a75;
+   font-size: 23pt; }
+button
+ { background-color: #1f2e2e;
+  border: 3px solid #00e6e6;
+  border-radius: 16px;
+  color: #00e6e6;
+  padding: 8px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  outline: none;
+  transition-duration: 0.4s;
+  cursor: pointer; }
+#enter
+ { padding: 8px 22px;
+   font-size: 25px; }
+button:hover
+ { background-color: #00e6e6;
+   color: #1f2e2e;
+   border: 2px solid white;
+}
+input
+ { border: 2px solid #009999;
+  padding: 6px 12px;
+  min-width: 60%;
+  height: 32px;
+  font-family:'Audiowide';
+  background-color: #00e6e6;
+  font-size: 20pt;
+  outline: none;
+  text-transform: capitalize;
+  color: #1f2e2e;
+  border-radius: 16px; }
+input:hover
+ { background-color: #00e6e6;
+   color: #1f2e2e;
+   border: 2px solid white;
+}
+ul
+ { text-align: left;
+   margin-top: 20px;
+   margin-left: 28%;
+   font-size: 20px; }
+li 
+ { list-style: none;
+   padding: 12px;
+   font-family:'Audiowide';
+   border: 2px solid white;
+   background-color: #ffb3b3;
+   border-radius: 16px;
+   width: 50%;
+   font-weight: bold;
+   color: #1f2e2e;
+   transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+   margin-bottom: 10px;
+   text-transform: capitalize; }
+li:hover 
+   { background: #ff3333; }
+li > button.delbutt
+ {  
+	background: none;
+	border: none;
+	float: right;
+	color: #1f2e2e;
+	font-weight: 800;
+	font-size: 16pt;
+	margin-top: -11px;
+	margin-right: -15px; }
+.delete
+ { display: none; }
+.ok
+ { background: #51DF70 !important;
+	color: #00891E; }
+#usernameBox , #userpassBox
+ { margin-bottom: 10px;
+   padding: 6px 12px;
+   display: block;
+  width: 25%;
+  text-transform: lowercase;
+  height: 26px;
+  font-family: none;
+  font-size: 12pt;}
+#email ,#pass ,#cpass  
+ { display: block;
+   min-width: 20%;
+   font-size: 12pt;
+   font-family: none;
+   text-transform: none; }
+
+.headq
+ { font-size: 25pt;
+   font-family:'Audiowide';
+   color: #00e6e6; }
+#show_logout { display: none; }
